@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get a Quote | DiazTech</title>
+    <meta name="description" content="Request a free diagnosis and quote from DiazTech for your computer or laptop issues." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle menu</span><span></span><span></span><span></span></button>
+        <nav id="site-nav" class="nav">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+          <a class="btn btn-sm active" href="quote.html">Get a Quote</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Get a Quote</p>
+          <h1>Request Free Diagnosis</h1>
+          <p>Share your issue below and Angel from DiazTech will follow up with next steps and a quote.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container quote-layout">
+          <div class="panel panel-light">
+            <h2>What to include</h2>
+            <ul class="check-list">
+              <li>Device type (laptop or desktop)</li>
+              <li>Problem details and when it started</li>
+              <li>Any error messages shown</li>
+              <li>Your preferred contact method</li>
+            </ul>
+            <p class="note">
+              Free diagnosis is currently available while DiazTech grows.
+            </p>
+          </div>
+          <form class="form" id="booking-form">
+            <label>
+              Full Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" required />
+            </label>
+            <label>
+              Device Type
+              <select name="device" required>
+                <option value="">Choose one</option>
+                <option>Laptop</option>
+                <option>Desktop</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Problem Description
+              <textarea name="issue" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-block">Send Request</button>
+            <p class="form-msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand-footer" href="index.html"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
+          <p>Local technology repair and troubleshooting support.</p>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="quote.html">Get a Quote</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="mailto:hello@diaztech.com">hello@diaztech.com</a></li>
+            <li><a href="quote.html">Message DiazTech</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom"><p>&copy; <span id="year"></span> DiazTech. All rights reserved.</p></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
