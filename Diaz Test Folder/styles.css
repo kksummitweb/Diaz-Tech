@@ -93,6 +93,12 @@ a {
   font-size: 0.8rem;
 }
 
+.service-eyebrow {
+  color: var(--brand-orange) !important;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
 .skip-link {
   position: absolute;
   left: -999px;
@@ -320,6 +326,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  align-items: stretch;
 }
 
 .card {
@@ -346,15 +353,32 @@ a {
   align-items: start;
 }
 
+.two-col > * {
+  align-self: start;
+}
+
+.two-col .panel-light {
+  align-self: start;
+  margin-top: 1.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  padding: 1.6rem;
+}
+
 .check-list,
 .panel ul {
-  margin: 1rem 0 0;
-  padding-left: 1.2rem;
+  margin: 1.2rem 0 0;
+  padding-left: 1.35rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .check-list li,
 .panel li {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
 .panel {
@@ -362,6 +386,25 @@ a {
   border: 1px solid rgba(179, 214, 255, 0.3);
   border-radius: 0.9rem;
   padding: 1.3rem;
+}
+
+.panel h2,
+.panel h3 {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  font-size: 1.4rem;
+}
+
+.panel p {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.two-col .panel-light .note,
+.two-col .panel-light .btn {
+  margin-top: auto;
 }
 
 .pricing-grid {
@@ -647,6 +690,10 @@ a {
   max-width: 70ch;
 }
 
+.page-hero .eyebrow {
+  color: var(--brand-orange) !important;
+}
+
 .hero-points {
   list-style: none;
   padding: 0;
@@ -704,6 +751,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  align-items: stretch;
 }
 
 .service-item {
@@ -735,6 +783,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-top: 1.5rem;
+  align-items: stretch;
 }
 
 .gallery-card {
@@ -762,12 +811,14 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.2rem;
+  align-items: stretch;
 }
 
 .quote-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+  align-items: stretch;
 }
 
 .hero-card,
@@ -794,6 +845,14 @@ a {
   box-shadow: var(--shadow);
 }
 
+.card,
+.service-item,
+.gallery-card,
+.panel-light,
+.form {
+  height: 100%;
+}
+
 .form input,
 .form select,
 .form textarea {
@@ -811,6 +870,10 @@ a {
   .about-grid,
   .quote-layout {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .two-col .panel-light {
+    margin-top: 0;
   }
 }
 
