@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About DiazTech | Angel's Story</title>
-    <meta name="description" content="Learn about Angel, the 17-year-old founder of DiazTech, and the mission behind this local tech repair business." />
+    <title>About DiazTech | Angel's Tech Story</title>
+    <meta name="description" content="Learn about Angel, the founder of DiazTech, and the mission to help with all kinds of devices, repairs, and custom PC builds." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="header">
       <div class="container nav-wrap">
-        <a class="brand" href="index.html"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
+        <a class="brand" href="index.html" aria-label="DiazTech Home"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
         <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle menu</span><span></span><span></span><span></span></button>
-        <nav id="site-nav" class="nav">
+        <nav id="site-nav" class="nav" aria-label="Main navigation">
           <a href="index.html">Home</a>
           <a href="services.html">Services</a>
           <a href="gallery.html">Gallery</a>
@@ -24,12 +25,12 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main id="main">
       <section class="page-hero">
         <div class="container">
           <p class="eyebrow">About DiazTech</p>
           <h1>Hi, I'm Angel</h1>
-          <p>I am a 17-year-old local student building DiazTech to help my community with computer repair and troubleshooting support.</p>
+          <p>I am a 17-year-old local student building DiazTech to help my community with device repair, troubleshooting, upgrades, and custom PC assembly support.</p>
         </div>
       </section>
       <section class="section">
@@ -37,8 +38,8 @@
           <article class="card">
             <h3>Why I started DiazTech</h3>
             <p>
-              I enjoy working with computers and helping people fix slow or problematic devices.
-              I started this service to gain real experience while providing useful support to the community.
+              I enjoy working with technology and helping people fix slow or problematic devices.
+              I started this service to gain real experience while providing useful support for phones, tablets, computers, and custom PC projects.
             </p>
           </article>
           <article class="card">
@@ -58,7 +59,7 @@
           <article class="card">
             <h3>Let's connect</h3>
             <p>
-              If your computer is having issues, send a message and I will be happy to take a look
+              If your device is having issues or you want help with a custom PC build, send a message and I will be happy to take a look
               and share what I can do to help.
             </p>
           </article>
@@ -76,7 +77,7 @@
           </div>
           <div class="panel panel-light">
             <h3>Work with DiazTech</h3>
-            <p>Have a slow or problematic computer? Share the details and Angel will respond with a free diagnosis.</p>
+            <p>Have a device issue or need help with a custom PC? Share the details and Angel will respond with a free diagnosis.</p>
             <a class="btn btn-block" href="quote.html">Request a Quote</a>
           </div>
         </div>

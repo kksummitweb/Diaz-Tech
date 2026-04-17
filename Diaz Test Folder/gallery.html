@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="header">
       <div class="container nav-wrap">
-        <a class="brand" href="index.html"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
+        <a class="brand" href="index.html" aria-label="DiazTech Home"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
         <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle menu</span><span></span><span></span><span></span></button>
-        <nav id="site-nav" class="nav">
+        <nav id="site-nav" class="nav" aria-label="Main navigation">
           <a href="index.html">Home</a>
           <a href="services.html">Services</a>
           <a class="active" href="gallery.html">Gallery</a>
@@ -24,12 +25,12 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main id="main">
       <section class="page-hero">
         <div class="container">
           <p class="eyebrow">Gallery</p>
-          <h1>Recent Repair Examples</h1>
-          <p>Use this page to showcase real before/after work. Current cards are placeholder examples you can replace with your own photos anytime.</p>
+          <h1>Service Highlights and Project Examples</h1>
+          <p>Explore the kinds of repairs, upgrades, and support DiazTech can provide for everyday devices and custom PC setups.</p>
         </div>
       </section>
       <section class="section">
@@ -66,8 +67,7 @@
             <p class="eyebrow">Update later</p>
             <h2>Add your own repair photos any time.</h2>
             <p>
-              As DiazTech completes more work, you can replace these placeholder cards with real pictures of
-              your setups, repairs, and upgrades to build trust with new clients.
+              This gallery can highlight completed setups, upgrades, and repair work to give future clients a clear idea of the service quality and style.
             </p>
           </div>
           <div class="panel panel-light">

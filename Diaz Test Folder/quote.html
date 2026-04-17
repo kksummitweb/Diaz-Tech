@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get a Quote | DiazTech</title>
-    <meta name="description" content="Request a free diagnosis and quote from DiazTech for your computer or laptop issues." />
+    <meta name="description" content="Request a free diagnosis and quote from DiazTech for phones, tablets, computers, upgrades, and custom PC builds." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="header">
       <div class="container nav-wrap">
-        <a class="brand" href="index.html"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
+        <a class="brand" href="index.html" aria-label="DiazTech Home"><img src="assets/logo.jpeg" alt="DiazTech logo" /><span>DiazTech</span></a>
         <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle menu</span><span></span><span></span><span></span></button>
-        <nav id="site-nav" class="nav">
+        <nav id="site-nav" class="nav" aria-label="Main navigation">
           <a href="index.html">Home</a>
           <a href="services.html">Services</a>
           <a href="gallery.html">Gallery</a>
@@ -24,7 +25,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main id="main">
       <section class="page-hero">
         <div class="container">
           <p class="eyebrow">Get a Quote</p>
@@ -37,10 +38,10 @@
           <div class="panel panel-light">
             <h2>What to include</h2>
             <ul class="check-list">
-              <li>Device type (laptop or desktop)</li>
+              <li>Device type (phone, tablet, laptop, desktop, or other)</li>
               <li>Problem details and when it started</li>
               <li>Any error messages shown</li>
-              <li>Your preferred contact method</li>
+              <li>Whether you need repair, setup, or PC assembly help</li>
             </ul>
             <p class="note">
               Free diagnosis is currently available while DiazTech grows.
@@ -63,8 +64,11 @@
               Device Type
               <select name="device" required>
                 <option value="">Choose one</option>
+                <option>Phone</option>
+                <option>Tablet</option>
                 <option>Laptop</option>
                 <option>Desktop</option>
+                <option>Custom PC Build</option>
                 <option>Other</option>
               </select>
             </label>
