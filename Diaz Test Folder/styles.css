@@ -690,6 +690,42 @@ a {
   max-width: 70ch;
 }
 
+.about-hero {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-hero > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
+
+.about-hero h1 {
+  margin-bottom: 0.75rem;
+}
+
+.about-hero p {
+  max-width: 58ch;
+}
+
 .page-hero .eyebrow {
   color: var(--brand-orange) !important;
 }
@@ -881,7 +917,8 @@ a {
   .service-list,
   .gallery-grid,
   .about-grid,
-  .quote-layout {
+  .quote-layout,
+  .about-hero {
     grid-template-columns: 1fr;
   }
 }
