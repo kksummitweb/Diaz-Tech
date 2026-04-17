@@ -697,7 +697,7 @@ a {
   align-items: center;
 }
 
-.about-hero > div:first-child {
+.about-copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -730,18 +730,37 @@ a {
   margin: 0;
 }
 
+.about-copy p + p {
+  margin-top: 0.2rem;
+}
+
+.about-grid .card {
+  padding: 1.35rem;
+}
+
+.about-grid .card p + p {
+  margin-top: 0.8rem;
+}
+
+.about-grid .card {
+  padding: 1.35rem;
+}
+
+.about-grid .card p + p {
+  margin-top: 0.8rem;
+}
+
 @media (max-width: 680px) {
   .about-hero {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 
-  .about-hero > div:first-child,
+  .about-copy,
   .about-photo-wrap {
     padding: 0;
   }
 }
-
 .page-hero .eyebrow {
   color: var(--brand-orange) !important;
   font-size: 0.95rem;
