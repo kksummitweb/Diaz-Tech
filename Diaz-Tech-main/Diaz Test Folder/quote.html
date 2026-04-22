@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get a Quote | DiazTech</title>
     <meta name="description" content="Request a free diagnosis and quote from DiazTech for phones, tablets, computers, upgrades, and custom PC builds." />
+    <meta name="theme-color" content="#0a5fb4" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -25,29 +29,115 @@
         </nav>
       </div>
     </header>
-    <main id="main">
-      <section class="page-hero">
-        <div class="container">
-          <p class="eyebrow">Get a Quote</p>
-          <h1>Request Free Diagnosis</h1>
-          <p>Share your issue below and Angel from DiazTech will follow up with next steps and a quote.</p>
+    <main id="main" class="quote-page">
+      <section class="quote-hero-pro" aria-labelledby="quote-hero-title">
+        <div class="quote-hero-bg" aria-hidden="true">
+          <span class="quote-hero-orb quote-hero-orb--a"></span>
+          <span class="quote-hero-orb quote-hero-orb--b"></span>
+          <span class="quote-hero-orb quote-hero-orb--c"></span>
+          <span class="quote-hero-gridlines"></span>
+        </div>
+        <div class="container quote-hero-inner">
+          <div class="quote-hero-copy">
+            <p class="eyebrow quote-hero-eyebrow">Get a Quote · Free Diagnosis</p>
+            <h1 id="quote-hero-title">Tell us what is wrong and get a <span class="quote-hero-accent">clear next step</span></h1>
+            <p class="quote-lead">
+              Share your device issue and DiazTech will follow up with a free diagnosis, practical recommendations,
+              and a straightforward quote before any paid work begins.
+            </p>
+            <p class="quote-sub">
+              From phones and tablets to laptops, desktops, and custom PC builds, every request is reviewed with
+              clear communication and no-pressure options.
+            </p>
+            <ul class="quote-hero-tags" aria-label="Quote page highlights">
+              <li>Free diagnosis</li>
+              <li>No hidden steps</li>
+              <li>Repair + upgrades + custom PCs</li>
+            </ul>
+            <div class="quote-hero-actions">
+              <a class="btn" href="#booking-form">Start request</a>
+              <a class="btn btn-outline" href="#service-area-title">View service area</a>
+            </div>
+          </div>
+          <aside class="quote-hero-aside" aria-label="Request timeline">
+            <div class="quote-hero-card">
+              <p class="quote-hero-card-label">What happens next</p>
+              <ul class="quote-hero-card-list">
+                <li>
+                  <span class="quote-hero-card-dot" aria-hidden="true"></span>
+                  <span>Submit your issue details</span>
+                </li>
+                <li>
+                  <span class="quote-hero-card-dot" aria-hidden="true"></span>
+                  <span>Receive free diagnosis feedback</span>
+                </li>
+                <li>
+                  <span class="quote-hero-card-dot" aria-hidden="true"></span>
+                  <span>Review quote and approve your option</span>
+                </li>
+              </ul>
+              <a class="btn btn-block btn-sm" href="#booking-form">Send request now</a>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container quote-layout">
-          <div class="panel panel-light">
-            <h2>What to include</h2>
-            <ul class="check-list">
-              <li>Device type (phone, tablet, laptop, desktop, or other)</li>
-              <li>Problem details and when it started</li>
-              <li>Any error messages shown</li>
-              <li>Whether you need repair, setup, or PC assembly help</li>
-            </ul>
-            <p class="note">
-              Free diagnosis is currently available while DiazTech grows.
-            </p>
+
+      <section class="quote-trust-strip" aria-label="Quote process standards">
+        <div class="container quote-trust-strip-inner">
+          <div class="quote-trust-pill" data-reveal>
+            <span class="quote-trust-pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                <path d="M22 4L12 14.01l-3-3" />
+              </svg>
+            </span>
+            <span>Diagnosis first</span>
           </div>
-          <form class="form" id="booking-form">
+          <div class="quote-trust-pill" data-reveal>
+            <span class="quote-trust-pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9" />
+                <path d="M12 4h9" />
+                <path d="M4 9h16" />
+                <path d="M4 15h16" />
+              </svg>
+            </span>
+            <span>Clear quote details</span>
+          </div>
+          <div class="quote-trust-pill" data-reveal>
+            <span class="quote-trust-pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </span>
+            <span>Approval before repair</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quote-request" aria-labelledby="quote-form-heading">
+        <div class="container quote-request-grid">
+          <div class="quote-request-info" data-reveal>
+            <div class="quote-info-card panel panel-light">
+              <h2 id="quote-form-heading">What to include</h2>
+              <ul class="quote-check-list">
+                <li>Device type (phone, tablet, laptop, desktop, or other)</li>
+                <li>Problem details and when it started</li>
+                <li>Any error messages shown</li>
+                <li>Whether you need repair, setup, or PC assembly help</li>
+              </ul>
+              <p class="note">Free diagnosis is currently available while DiazTech grows.</p>
+            </div>
+            <div class="quote-info-card panel panel-light" data-reveal>
+              <h3>Typical request flow</h3>
+              <ol class="quote-steps">
+                <li>Submit form details</li>
+                <li>Receive free diagnosis message</li>
+                <li>Choose repair or upgrade option</li>
+              </ol>
+            </div>
+          </div>
+          <form class="form quote-form-card" id="booking-form" data-reveal>
             <label>
               Full Name
               <input type="text" name="name" required />
@@ -79,6 +169,63 @@
             <button type="submit" class="btn btn-block">Send Request</button>
             <p class="form-msg" role="status" aria-live="polite"></p>
           </form>
+        </div>
+      </section>
+
+      <section class="section section-alt quote-service-area" aria-labelledby="service-area-title">
+        <div class="container quote-service-area-grid">
+          <div class="quote-service-area-copy" data-reveal>
+            <p class="eyebrow">Service Area</p>
+            <h2 id="service-area-title">Where DiazTech currently serves</h2>
+            <p>
+              DiazTech focuses on local service coverage shown on the map below. If you are near this area,
+              send your issue details and Angel will confirm availability and next steps.
+            </p>
+            <ul class="quote-service-area-list">
+              <li>Free diagnosis still available</li>
+              <li>Phones, tablets, laptops, desktops, and custom PC support</li>
+              <li>Clear quote provided before paid work begins</li>
+            </ul>
+          </div>
+          <figure class="quote-map-card" data-reveal>
+            <img src="assets/Diaz-Tech Map.png" alt="DiazTech service area map" loading="lazy" />
+            <figcaption>DiazTech primary service coverage area.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="quote-quote-band" aria-labelledby="quote-band-heading">
+        <div class="quote-quote-band__glow" aria-hidden="true"></div>
+        <div class="container">
+          <p class="quote-quote-band__eyebrow" id="quote-band-heading">Our promise</p>
+          <p class="quote-quote-band__text">
+            You get honest diagnostics, a clear quote, and a respectful process from first message to final fix.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt quote-closer">
+        <div class="container quote-closer-grid">
+          <div class="quote-closer-copy">
+            <p class="eyebrow">Need help today?</p>
+            <h2>DiazTech is ready when you are.</h2>
+            <p>
+              Submit your request now and get a free diagnosis response with practical options for repair,
+              troubleshooting, optimization, or custom PC support.
+            </p>
+            <ul class="quote-closer-list">
+              <li>Local, student-owned service</li>
+              <li>Clear communication throughout the process</li>
+              <li>No-pressure quote review before approval</li>
+            </ul>
+          </div>
+          <div class="quote-closer-panel panel panel-light">
+            <div class="quote-closer-panel__shine" aria-hidden="true"></div>
+            <h3>Ready to submit?</h3>
+            <p>Use the form above or browse services to describe your exact issue.</p>
+            <a class="btn btn-block" href="#booking-form">Start quote request</a>
+            <a class="quote-closer-secondary" href="services.html">Browse services</a>
+          </div>
         </div>
       </section>
     </main>
