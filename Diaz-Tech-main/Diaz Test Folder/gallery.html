@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DiazTech Gallery | Recent Work</title>
     <meta name="description" content="View DiazTech repair gallery and examples of common computer repair and upgrade jobs." />
+    <meta name="theme-color" content="#0a5fb4" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -25,95 +29,185 @@
         </nav>
       </div>
     </header>
-    <main id="main">
-      <section class="page-hero">
+    <main id="main" class="gallery-page">
+      <section class="gallery-hero-pro" aria-labelledby="gallery-hero-title">
+        <div class="gallery-hero-bg" aria-hidden="true">
+          <span class="gallery-hero-orb gallery-hero-orb--a"></span>
+          <span class="gallery-hero-orb gallery-hero-orb--b"></span>
+          <span class="gallery-hero-orb gallery-hero-orb--c"></span>
+          <span class="gallery-hero-gridlines"></span>
+        </div>
+        <div class="container gallery-hero-inner">
+          <div class="gallery-hero-copy">
+            <p class="eyebrow gallery-hero-eyebrow">Gallery · Real Work</p>
+            <h1 id="gallery-hero-title">See the <span class="gallery-hero-accent">repair process</span> up close</h1>
+            <p class="gallery-lead">
+              Every image below comes from real DiazTech repair and upgrade work. These examples show the same careful process used for each phone,
+              laptop, desktop, and custom PC project.
+            </p>
+            <p class="gallery-sub">
+              The goal is simple: clean workmanship, honest diagnostics, and results that hold up after handoff.
+            </p>
+            <ul class="gallery-hero-tags" aria-label="Gallery highlights">
+              <li>Verified project photos</li>
+              <li>Repair and upgrade workflow</li>
+              <li>Clear service outcomes</li>
+            </ul>
+            <div class="gallery-hero-actions">
+              <a class="btn" href="quote.html">Request free diagnosis</a>
+              <a class="btn btn-outline" href="#repair-showcase">Browse showcase</a>
+            </div>
+          </div>
+          <aside class="gallery-hero-aside" aria-label="What this gallery includes">
+            <div class="gallery-hero-card">
+              <p class="gallery-hero-card-label">Showcase categories</p>
+              <ul class="gallery-hero-card-list">
+                <li>
+                  <span class="gallery-hero-card-dot" aria-hidden="true"></span>
+                  <span>Desktop internals and upgrades</span>
+                </li>
+                <li>
+                  <span class="gallery-hero-card-dot" aria-hidden="true"></span>
+                  <span>Smartphone teardown and reassembly</span>
+                </li>
+                <li>
+                  <span class="gallery-hero-card-dot" aria-hidden="true"></span>
+                  <span>Laptop maintenance and diagnostics</span>
+                </li>
+              </ul>
+              <a class="btn btn-block btn-sm" href="services.html">View all services</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="gallery-trust-strip" aria-label="Service standards">
+        <div class="container gallery-trust-strip-inner">
+          <div class="gallery-trust-pill" data-reveal>
+            <span class="gallery-trust-pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                <path d="M22 4L12 14.01l-3-3" />
+              </svg>
+            </span>
+            <span>Diagnostics before assumptions</span>
+          </div>
+          <div class="gallery-trust-pill" data-reveal>
+            <span class="gallery-trust-pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9" />
+                <path d="M12 4h9" />
+                <path d="M4 9h16" />
+                <path d="M4 15h16" />
+              </svg>
+            </span>
+            <span>Clean bench workflow</span>
+          </div>
+          <div class="gallery-trust-pill" data-reveal>
+            <span class="gallery-trust-pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </span>
+            <span>Final verification before handoff</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-showcase" id="repair-showcase">
         <div class="container">
-          <p class="eyebrow">Portfolio</p>
-          <h1>Recent Repair and Device Restoration Work</h1>
-          <p>
-            A curated look at real diagnostics, repairs, and optimization work completed for local clients. Every project reflects our focus on
-            precision, reliability, and clean turnaround.
+          <div class="section-head gallery-section-head-pro">
+            <p class="eyebrow">Repair Showcase</p>
+            <h2>Project snapshots from active service work.</h2>
+            <p class="gallery-section-deck">
+              This gallery highlights real device states during repair, restoration, and upgrade stages.
+            </p>
+          </div>
+          <div class="gallery-showcase-grid">
+            <article class="gallery-shot" data-reveal>
+              <figure class="gallery-shot-media">
+                <img src="assets/gallery-1.jpeg" alt="Custom desktop PC internal hardware setup" />
+              </figure>
+              <div class="gallery-shot-copy">
+                <h3>Custom desktop internal hardware</h3>
+                <p>Motherboard, cooling, and graphics components installed and cable-managed for stable performance.</p>
+                <div class="gallery-shot-meta"><span>Desktop PC</span><span>Hardware Setup</span></div>
+              </div>
+            </article>
+            <article class="gallery-shot" data-reveal>
+              <figure class="gallery-shot-media">
+                <img src="assets/gallery-2.jpeg" alt="Smartphone disassembled with battery and camera module" />
+              </figure>
+              <div class="gallery-shot-copy">
+                <h3>Smartphone teardown view</h3>
+                <p>Internal frame, battery, and camera assembly exposed for targeted diagnostics and repair planning.</p>
+                <div class="gallery-shot-meta"><span>Smartphone</span><span>Teardown</span></div>
+              </div>
+            </article>
+            <article class="gallery-shot" data-reveal>
+              <figure class="gallery-shot-media">
+                <img src="assets/gallery-3.jpeg" alt="Laptop internals with cooling system and motherboard exposed" />
+              </figure>
+              <div class="gallery-shot-copy">
+                <h3>Laptop internal service stage</h3>
+                <p>Cooling path and motherboard area inspected while verifying thermal and storage-related issues.</p>
+                <div class="gallery-shot-meta"><span>Laptop</span><span>Diagnostics</span></div>
+              </div>
+            </article>
+            <article class="gallery-shot" data-reveal>
+              <figure class="gallery-shot-media">
+                <img src="assets/gallery-4.jpeg" alt="LG smartphone reassembly with back cover and battery visible" />
+              </figure>
+              <div class="gallery-shot-copy">
+                <h3>Phone reassembly workflow</h3>
+                <p>Component seating and housing alignment checked before final close and post-repair testing.</p>
+                <div class="gallery-shot-meta"><span>Smartphone</span><span>Reassembly</span></div>
+              </div>
+            </article>
+            <article class="gallery-shot" data-reveal>
+              <figure class="gallery-shot-media">
+                <img src="assets/gallery-5.jpeg" alt="Desktop motherboard with RAM installation in progress" />
+              </figure>
+              <div class="gallery-shot-copy">
+                <h3>Desktop RAM upgrade</h3>
+                <p>Memory upgrade completed with compatibility checks and configuration validation.</p>
+                <div class="gallery-shot-meta"><span>Desktop PC</span><span>Upgrade</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-quote-band" aria-labelledby="gallery-quote-heading">
+        <div class="gallery-quote-band__glow" aria-hidden="true"></div>
+        <div class="container">
+          <p class="gallery-quote-band__eyebrow" id="gallery-quote-heading">Craft over shortcuts</p>
+          <p class="gallery-quote-band__text">
+            Each repair photo represents one standard: do the work carefully, verify the result, and return devices with confidence.
           </p>
-          <ul class="hero-points gallery-points">
-            <li>Professional diagnostics and repair workflow</li>
-            <li>Quality-first component handling and installation</li>
-            <li>Transparent service outcomes for every client</li>
-          </ul>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="section-head gallery-section-head">
-            <p class="eyebrow">Project Gallery</p>
-            <h2>Documented service outcomes across active repair stages.</h2>
-            <p class="gallery-intro">
-              Each sample below reflects the same service standards applied to all client devices: careful diagnostics, component-safe handling, and
-              final verification before handoff.
-            </p>
-          </div>
-          <div class="gallery-chips" aria-label="Portfolio highlights">
-            <span class="gallery-chip">5 Verified Project Samples</span>
-            <span class="gallery-chip">Repair + Restoration Workflow</span>
-            <span class="gallery-chip">Quality Check Completed</span>
-          </div>
-        </div>
-        <div class="container gallery-grid">
-          <article class="gallery-card" data-reveal>
-            <img src="assets/gallery-1.jpeg" alt="Custom desktop PC internal hardware setup" />
-            <div class="gallery-card-copy">
-              <h3>Custom Desktop PC Hardware</h3>
-              <p>Internal desktop build view with motherboard, cooling, and graphics components installed.</p>
-              <div class="gallery-meta"><span>Desktop PC</span><span>Internal Hardware</span></div>
-            </div>
-          </article>
-          <article class="gallery-card" data-reveal>
-            <img class="flip-horizontal" src="assets/gallery-2.jpeg" alt="Smartphone disassembled with battery and camera module" />
-            <div class="gallery-card-copy">
-              <h3>Smartphone Teardown and Components</h3>
-              <p>Phone opened for service showing internal frame, battery, camera module, and cover assembly.</p>
-              <div class="gallery-meta"><span>Smartphone</span><span>Repair Bench</span></div>
-            </div>
-          </article>
-          <article class="gallery-card" data-reveal>
-            <img class="flip-horizontal" src="assets/gallery-3.jpeg" alt="Laptop internals with cooling system and motherboard exposed" />
-            <div class="gallery-card-copy">
-              <h3>Laptop Internal Service View</h3>
-              <p>Laptop repair view featuring cooling assembly, motherboard sections, and installed storage.</p>
-              <div class="gallery-meta"><span>Laptop</span><span>Internal Service</span></div>
-            </div>
-          </article>
-          <article class="gallery-card" data-reveal>
-            <img class="flip-horizontal" src="assets/gallery-4.jpeg" alt="LG smartphone reassembly with back cover and battery visible" />
-            <div class="gallery-card-copy">
-              <h3>LG Phone Reassembly</h3>
-              <p>LG device shown during reassembly with internal battery position and rear housing components.</p>
-              <div class="gallery-meta"><span>Smartphone</span><span>Reassembly</span></div>
-            </div>
-          </article>
-          <article class="gallery-card" data-reveal>
-            <img src="assets/gallery-5.jpeg" alt="Desktop motherboard with RAM installation in progress" />
-            <div class="gallery-card-copy">
-              <h3>RAM Upgrade on Desktop Motherboard</h3>
-              <p>Desktop upgrade process showing memory installation directly on the motherboard slots.</p>
-              <div class="gallery-meta"><span>Desktop PC</span><span>Memory Upgrade</span></div>
-            </div>
-          </article>
-        </div>
-      </section>
-      <section class="section section-alt">
-        <div class="container two-col">
-          <div>
-            <p class="eyebrow">Work Standards</p>
-            <h2>Built for trust, detail, and long-term reliability.</h2>
+
+      <section class="section section-alt gallery-closer">
+        <div class="container gallery-closer-grid">
+          <div class="gallery-closer-copy">
+            <p class="eyebrow">Need your device checked?</p>
+            <h2>Book a free diagnosis and get clear next steps.</h2>
             <p>
-              DiazTech service delivery is centered around transparent diagnostics, practical recommendations, and clean workmanship that clients can rely
-              on after service.
+              If your phone, tablet, laptop, or desktop is acting up, share the issue and receive a straightforward plan before any paid work starts.
             </p>
+            <ul class="gallery-closer-list">
+              <li>Transparent recommendations</li>
+              <li>Repair and upgrade options explained clearly</li>
+              <li>No-pressure approval before work continues</li>
+            </ul>
           </div>
-          <div class="panel panel-light">
-            <h3>Need help with your device?</h3>
-            <p>Request a quote to schedule professional repair, troubleshooting, or optimization support.</p>
+          <div class="gallery-closer-panel panel panel-light">
+            <div class="gallery-closer-panel__shine" aria-hidden="true"></div>
+            <h3>Ready to start?</h3>
+            <p>Send your issue details and DiazTech will follow up with a free diagnosis and practical options.</p>
             <a class="btn btn-block" href="quote.html">Get a Quote</a>
+            <a class="gallery-closer-secondary" href="services.html">Browse services</a>
           </div>
         </div>
       </section>
