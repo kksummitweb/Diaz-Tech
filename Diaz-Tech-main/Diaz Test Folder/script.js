@@ -1,5 +1,6 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
+const QUOTE_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzoLC4jGayiLbkO7_HpfbVkxFbWrRVJYiHJu99CQPQJKJ22oHbX__FmQYqMVaE_Zvy7/exec";
 
 if (menuToggle && nav) {
   const closeMenu = () => {
@@ -79,8 +80,9 @@ document.querySelectorAll("[data-counter]").forEach((counter) => {
 const bookingForm = document.getElementById("booking-form");
 if (bookingForm) {
   const status = bookingForm.querySelector(".form-msg");
+  const submitButton = bookingForm.querySelector('button[type="submit"]');
 
-  bookingForm.addEventListener("submit", (event) => {
+  bookingForm.addEventListener("submit", async (event) => {
     event.preventDefault();
     const formData = new FormData(bookingForm);
     const missingRequired = [...formData.entries()].some(([, value]) => !String(value).trim());
@@ -91,9 +93,60 @@ if (bookingForm) {
       return;
     }
 
-    status.textContent = "Thank you! Your request was received. DiazTech will contact you shortly.";
-    status.style.color = "#0b7d42";
-    bookingForm.reset();
+    try {
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = "Sending...";
+      }
+
+      status.textContent = "Sending your request...";
+      status.style.color = "#36506f";
+
+      const payload = new URLSearchParams();
+      formData.forEach((value, key) => {
+        payload.append(key, String(value));
+      });
+
+      // Backward compatibility for Apps Script versions still using old names.
+      const deviceValue = String(formData.get("device") || "");
+      const issueValue = String(formData.get("issue") || "");
+      payload.append("service", deviceValue);
+      payload.append("message", issueValue);
+
+      const response = await fetch(QUOTE_WEB_APP_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+        },
+        body: payload.toString(),
+      });
+
+      let result = null;
+      try {
+        result = await response.json();
+      } catch (_error) {
+        result = null;
+      }
+
+      // Apps Script web apps sometimes return redirects/HTML despite successful doPost execution.
+      // Treat explicit JSON errors as failures; otherwise accept 2xx/redirect responses as submitted.
+      const explicitError = result && result.result && result.result !== "success";
+      if (!response.ok || explicitError) {
+        throw new Error("Submission failed");
+      }
+
+      status.textContent = "Thank you! Your request was received. DiazTech will contact you shortly.";
+      status.style.color = "#0b7d42";
+      bookingForm.reset();
+    } catch (_error) {
+      status.textContent = "We could not send your request right now. Please try again in a moment.";
+      status.style.color = "#c85e00";
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = "Send Request";
+      }
+    }
   });
 }
 
