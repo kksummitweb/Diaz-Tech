@@ -2778,12 +2778,169 @@ a {
     padding: 3.5rem 0 2.5rem;
   }
 
+  .gallery-hero-inner {
+    gap: 1.35rem;
+  }
+
+  .gallery-hero-inner h1 {
+    font-size: clamp(1.85rem, 8.2vw, 2.3rem);
+    line-height: 1.08;
+    margin-bottom: 0.55rem;
+  }
+
+  .gallery-lead,
+  .gallery-sub {
+    font-size: 0.98rem;
+    line-height: 1.58;
+  }
+
+  .gallery-hero-tags {
+    gap: 0.45rem;
+  }
+
+  .gallery-hero-tags li {
+    font-size: 0.72rem;
+    padding: 0.4rem 0.62rem;
+  }
+
+  .gallery-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .gallery-hero-actions .btn {
+    width: 100%;
+    min-height: 2.8rem;
+  }
+
+  .gallery-hero-card {
+    max-width: none;
+    padding: 1.3rem 1.1rem 1.2rem;
+    border-radius: 1rem;
+    animation-duration: 8.5s;
+  }
+
+  .gallery-hero-card-list {
+    gap: 0.7rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .gallery-hero-card-list li {
+    font-size: 0.94rem;
+    line-height: 1.42;
+  }
+
+  .gallery-trust-strip {
+    padding: 1.05rem 0 1.2rem;
+  }
+
   .gallery-showcase-grid {
     grid-template-columns: 1fr;
+    margin-top: 1.45rem;
+    gap: 0.95rem;
   }
 
   .gallery-trust-strip-inner {
     justify-content: flex-start;
+    gap: 0.55rem;
+  }
+
+  .gallery-trust-pill {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0.6rem 0.82rem;
+    font-size: 0.82rem;
+  }
+
+  .gallery-section-deck {
+    margin-top: 0.65rem;
+    font-size: 0.96rem;
+    line-height: 1.58;
+  }
+
+  .gallery-shot {
+    border-radius: 1rem;
+  }
+
+  .gallery-shot-media {
+    aspect-ratio: 16 / 10;
+  }
+
+  .gallery-shot-copy {
+    padding: 0.9rem 0.88rem 0.95rem;
+    gap: 0.55rem;
+  }
+
+  .gallery-shot-copy h3 {
+    font-size: 1rem;
+  }
+
+  .gallery-shot-copy p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .gallery-quote-band {
+    padding: 2.1rem 0;
+  }
+
+  .gallery-quote-band__text {
+    margin-top: 0.7rem;
+    font-size: clamp(1.02rem, 4.9vw, 1.2rem);
+    line-height: 1.5;
+  }
+
+  .gallery-closer-grid {
+    gap: 1.15rem;
+  }
+
+  .gallery-closer-list {
+    margin-top: 0.9rem;
+    gap: 0.5rem;
+  }
+
+  .gallery-closer-panel {
+    padding: 1.25rem 1.05rem;
+    border-radius: 1rem;
+    gap: 0.85rem;
+  }
+
+  .gallery-closer-secondary {
+    min-height: 2.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .gallery-hero-pro {
+    padding: 3.1rem 0 2.2rem;
+  }
+
+  .gallery-hero-gridlines {
+    opacity: 0.45;
+  }
+
+  .gallery-hero-orb--c {
+    display: none;
+  }
+
+  .gallery-hero-card-label {
+    margin-bottom: 0.85rem;
+  }
+
+  .gallery-trust-pill {
+    font-size: 0.78rem;
+  }
+
+  .gallery-shot-media {
+    aspect-ratio: 16 / 10;
+  }
+
+  .gallery-shot-meta span {
+    font-size: 0.68rem;
+    letter-spacing: 0.01em;
   }
 }
 
