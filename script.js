@@ -1,6 +1,72 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
+const navWrap = document.querySelector(".nav-wrap");
 const QUOTE_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzoLC4jGayiLbkO7_HpfbVkxFbWrRVJYiHJu99CQPQJKJ22oHbX__FmQYqMVaE_Zvy7/exec";
+const THEME_STORAGE_KEY = "diaztech-theme";
+
+const rootElement = document.documentElement;
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+const getInitialTheme = () => {
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  if (savedTheme === "dark" || savedTheme === "light") {
+    return savedTheme;
+  }
+  return prefersDarkScheme.matches ? "dark" : "light";
+};
+
+const setTheme = (theme) => {
+  rootElement.setAttribute("data-theme", theme);
+};
+
+setTheme(getInitialTheme());
+
+const themeToggle = document.createElement("button");
+themeToggle.type = "button";
+themeToggle.className = "theme-toggle";
+themeToggle.innerHTML = '<span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-thumb"></span></span><span class="theme-toggle-label"></span>';
+const themeToggleLabel = themeToggle.querySelector(".theme-toggle-label");
+
+const syncThemeToggleLabel = () => {
+  const activeTheme = rootElement.getAttribute("data-theme") || "light";
+  themeToggle.dataset.mode = activeTheme;
+  themeToggle.setAttribute("aria-pressed", activeTheme === "dark" ? "true" : "false");
+  if (activeTheme === "dark") {
+    if (themeToggleLabel) themeToggleLabel.textContent = "Dark mode";
+    themeToggle.setAttribute("aria-label", "Switch to light mode");
+  } else {
+    if (themeToggleLabel) themeToggleLabel.textContent = "Light mode";
+    themeToggle.setAttribute("aria-label", "Switch to dark mode");
+  }
+};
+
+if (navWrap) {
+  if (menuToggle) {
+    navWrap.insertBefore(themeToggle, menuToggle);
+  } else if (nav) {
+    navWrap.insertBefore(themeToggle, nav);
+  } else {
+    navWrap.appendChild(themeToggle);
+  }
+  syncThemeToggleLabel();
+
+  themeToggle.addEventListener("click", () => {
+    const activeTheme = rootElement.getAttribute("data-theme") || "light";
+    const nextTheme = activeTheme === "dark" ? "light" : "dark";
+    setTheme(nextTheme);
+    localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+    syncThemeToggleLabel();
+  });
+
+  prefersDarkScheme.addEventListener("change", (event) => {
+    const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+    if (savedTheme === "dark" || savedTheme === "light") {
+      return;
+    }
+    setTheme(event.matches ? "dark" : "light");
+    syncThemeToggleLabel();
+  });
+}
 
 if (menuToggle && nav) {
   const closeMenu = () => {
