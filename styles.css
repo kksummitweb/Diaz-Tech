@@ -225,6 +225,39 @@ a {
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  height: 40px;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-soft) 100%);
+  color: var(--text);
+  font-weight: 800;
+  font-size: 0.76rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0.45rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  transform: translateY(-1px);
+  border-color: var(--brand-cyan);
+  box-shadow: var(--shadow-soft);
+}
+
+.language-toggle:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--brand-cyan) 45%, transparent);
+  outline-offset: 2px;
+}
+
 .theme-toggle-track {
   position: relative;
   width: 44px;
@@ -744,6 +777,14 @@ html[data-theme="dark"] .hero-copy p {
     height: 38px;
     font-size: 0.8rem;
     margin-left: 0.4rem;
+  }
+
+  .language-toggle {
+    min-width: 72px;
+    height: 38px;
+    font-size: 0.74rem;
+    margin-left: 0.35rem;
+    padding: 0 0.58rem;
   }
 
   .menu-toggle:hover,
