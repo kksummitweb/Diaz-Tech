@@ -3,9 +3,12 @@ const nav = document.querySelector(".nav");
 const navWrap = document.querySelector(".nav-wrap");
 const QUOTE_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzoLC4jGayiLbkO7_HpfbVkxFbWrRVJYiHJu99CQPQJKJ22oHbX__FmQYqMVaE_Zvy7/exec";
 const THEME_STORAGE_KEY = "diaztech-theme";
+const LIGHT_LOGO_SRC = "assets/logo.jpeg";
+const DARK_LOGO_SRC = "assets/Dark Mode Logo.png";
 
 const rootElement = document.documentElement;
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+const brandLogoImages = document.querySelectorAll(".brand img");
 
 const getInitialTheme = () => {
   const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
@@ -15,8 +18,17 @@ const getInitialTheme = () => {
   return prefersDarkScheme.matches ? "dark" : "light";
 };
 
+const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
 const setTheme = (theme) => {
   rootElement.setAttribute("data-theme", theme);
+  const nextLogoSrc = theme === "dark" ? DARK_LOGO_SRC : LIGHT_LOGO_SRC;
+  brandLogoImages.forEach((image) => {
+    image.setAttribute("src", nextLogoSrc);
+  });
+  if (themeColorMeta) {
+    themeColorMeta.setAttribute("content", theme === "dark" ? "#0b1526" : "#0a5fb4");
+  }
 };
 
 setTheme(getInitialTheme());
@@ -41,10 +53,10 @@ const syncThemeToggleLabel = () => {
 };
 
 if (navWrap) {
-  if (menuToggle) {
+  if (nav) {
+    nav.insertAdjacentElement("afterend", themeToggle);
+  } else if (menuToggle) {
     navWrap.insertBefore(themeToggle, menuToggle);
-  } else if (nav) {
-    navWrap.insertBefore(themeToggle, nav);
   } else {
     navWrap.appendChild(themeToggle);
   }
