@@ -722,6 +722,18 @@ html[data-theme="dark"] .hero-copy p {
   gap: 0.35rem;
 }
 
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.social-link svg {
+  width: 0.92rem;
+  height: 0.92rem;
+  flex-shrink: 0;
+}
+
 .footer a:hover,
 .footer a:focus-visible {
   color: var(--brand-cyan);
