@@ -116,15 +116,267 @@ const I18N_TEXT_ES = {
   "Browse services": "Explorar servicios",
   "Request a quote": "Solicitar cotización",
   "View recent work": "Ver trabajo reciente",
+  "About DiazTech | Angel's Tech Story": "Sobre DiazTech | La historia tecnológica de Angel",
+  "DiazTech Services | Device Repair & PC Assembly": "Servicios DiazTech | Reparación de dispositivos y armado de PC",
+  "DiazTech Gallery | Recent Work": "Galería DiazTech | Trabajos recientes",
+  "Get a Quote | DiazTech": "Solicitar cotización | DiazTech",
+  "Meet": "Conoce",
+  "Angel is the founder of DiazTech, a local technology service focused on dependable support, clear communication,": "Angel es el fundador de DiazTech, un servicio tecnológico local enfocado en soporte confiable y comunicación clara,",
+  "and practical solutions for device repair, upgrades, and custom PC builds.": "y soluciones prácticas para reparación de dispositivos, mejoras y armado de PCs personalizadas.",
+  "The mission is a professional, trustworthy experience: honest help, straightforward recommendations, and quality": "La misión es una experiencia profesional y confiable: ayuda honesta, recomendaciones claras y calidad",
+  "service for everyday technology needs.": "de servicio para las necesidades tecnológicas del día a día.",
+  "Free diagnosis": "Diagnóstico gratis",
+  "Student-owned": "Negocio de estudiante",
+  "Repair & custom PCs": "Reparación y PCs personalizadas",
+  "What DiazTech stands for": "Lo que representa DiazTech",
+  "Reliable local service with a personal, refined approach.": "Servicio local confiable con un enfoque personal y profesional.",
+  "Every interaction is built around clarity, respect for your time, and work you can feel confident recommending to": "Cada interacción se basa en claridad, respeto por tu tiempo y trabajo que puedas recomendar con confianza a",
+  "friends and family.": "amigos y familia.",
+  "Mission": "Misión",
+  "DiazTech exists to make technology support feel approachable: helpful, affordable, and honest. Repairs and": "DiazTech existe para que el soporte tecnológico se sienta accesible: útil, económico y honesto. Las reparaciones y",
+  "recommendations stay clear, practical, and accessible for the local community.": "recomendaciones se mantienen claras, prácticas y accesibles para la comunidad local.",
+  "Why it started": "Por qué comenzó",
+  "DiazTech was created to fill the gap between rushed big-box service and opaque online help—with a personal": "DiazTech se creó para cubrir el vacío entre el servicio apresurado de grandes tiendas y la ayuda en línea poco clara, con un trato personal",
+  "touch and straight answers.": "y respuestas directas.",
+  "How it works": "Cómo funciona",
+  "Clear communication first, then respectful service and straightforward options. Every project begins with a": "Primero comunicación clara, luego servicio respetuoso y opciones directas. Cada proyecto comienza con un",
+  "free diagnosis so you understand the issue before moving forward.": "diagnóstico gratis para que entiendas el problema antes de continuar.",
+  "Community first": "La comunidad primero",
+  "DiazTech is built on trust, consistency, and steady growth. Every project is a chance to serve the community": "DiazTech se construye sobre confianza, constancia y crecimiento. Cada proyecto es una oportunidad para servir a la comunidad",
+  "well and strengthen a local reputation.": "bien y fortalecer una reputación local.",
+  "It is not only about fixing devices—it is about making sure each client feels informed, respected, and confident": "No se trata solo de reparar dispositivos, sino de asegurar que cada cliente se sienta informado, respetado y con confianza",
+  "in the service they receive.": "en el servicio que recibe.",
+  "Work with DiazTech": "Trabaja con DiazTech",
+  "Phones, tablets, computers, upgrades, or custom builds—reach out for a free diagnosis and a clear next step.": "Teléfonos, tablets, computadoras, mejoras o equipos personalizados: contáctanos para un diagnóstico gratis y un siguiente paso claro.",
+  "Get started": "Comenzar",
+  "I care about getting it right the first time, explaining what happened in plain language, and leaving you confident": "Me importa hacerlo bien desde la primera vez, explicar lo ocurrido en lenguaje simple y dejarte con confianza",
+  "your tech is in good hands.": "de que tu tecnología está en buenas manos.",
+  "Support a student business": "Apoya un negocio estudiantil",
+  "Every project helps DiazTech grow.": "Cada proyecto ayuda a que DiazTech crezca.",
+  "Choosing DiazTech supports a motivated local business focused on learning, improving, and showing up with": "Elegir DiazTech apoya un negocio local motivado, enfocado en aprender, mejorar y presentarse con",
+  "dependable help on every repair and setup.": "ayuda confiable en cada reparación y configuración.",
+  "Transparent recommendations": "Recomendaciones transparentes",
+  "Respect for your budget and timeline": "Respeto por tu presupuesto y tiempos",
+  "Quality-focused workmanship": "Trabajo enfocado en calidad",
+  "Ready when you are": "Listo cuando tú lo estés",
+  "Share what is going on with your device or build. Angel will reply with a free diagnosis and clear options—no": "Comparte qué ocurre con tu dispositivo o equipo. Angel responderá con un diagnóstico gratis y opciones claras, sin",
+  "pressure, no jargon wall.": "presión ni tecnicismos innecesarios.",
+  "Services · DiazTech": "Servicios · DiazTech",
+  "Repair, setup, and": "Reparación, configuración y",
+  "real tech help": "ayuda tecnológica real",
+  "Phones, tablets, laptops, desktops, gaming setups, and everyday troubleshooting—with custom PC assembly,": "Teléfonos, tablets, laptops, computadoras, equipos gamer y diagnósticos cotidianos, con armado de PC personalizada,",
+  "upgrades, and a": "mejoras y un",
+  "Every service is explained in plain language so you always know what is wrong, what it will take to fix, and": "Cada servicio se explica en lenguaje simple para que sepas qué está mal, qué se necesita para arreglarlo y",
+  "what it is likely to cost before you approve the next step.": "cuánto podría costar antes de aprobar el siguiente paso.",
+  "Many device types": "Muchos tipos de dispositivos",
+  "Custom PCs & upgrades": "PCs personalizadas y mejoras",
+  "Request free diagnosis": "Solicitar diagnóstico gratis",
+  "Core support": "Soporte principal",
+  "Services tuned for the problems people hit every day.": "Servicios diseñados para los problemas que la gente enfrenta cada día.",
+  "From slow computers to mystery errors and full custom builds—these are the service lanes DiazTech is built around.": "Desde computadoras lentas hasta errores difíciles y equipos totalmente personalizados, estas son las áreas en que se enfoca DiazTech.",
+  "Performance & speed optimization": "Optimización de rendimiento y velocidad",
+  "All device repair & troubleshooting": "Reparación y diagnóstico de todo tipo de dispositivos",
+  "General tech support": "Soporte tecnológico general",
+  "What to expect": "Qué esperar",
+  "Simple process. No confusing tech talk.": "Proceso simple. Sin lenguaje técnico confuso.",
+  "Share the issue": "Comparte el problema",
+  "Free diagnosis for every service": "Diagnóstico gratis en cada servicio",
+  "Most software cleanups: often within 1–3 days": "La mayoría de limpiezas de software: generalmente entre 1 y 3 días",
+  "Hardware upgrades depend on part availability": "Las mejoras de hardware dependen de la disponibilidad de piezas",
+  "Pricing is confirmed before repair work begins": "El precio se confirma antes de iniciar la reparación",
+  "Typical turnaround": "Tiempo de entrega típico",
+  "Quick answers before you book.": "Respuestas rápidas antes de solicitar servicio.",
+  "Service Area": "Área de servicio",
+  "Current local coverage": "Cobertura local actual",
+  "DiazTech currently serves the local area shown below. If you are nearby, send your issue details and you will": "DiazTech actualmente atiende el área local mostrada abajo. Si estás cerca, envía los detalles de tu problema y",
+  "get clear availability and next-step options.": "recibirás disponibilidad clara y opciones para el siguiente paso.",
+  "Straightforward quote and approval process": "Proceso claro de cotización y aprobación",
+  "How DiazTech works with you": "Cómo trabaja DiazTech contigo",
+  "You should never feel rushed into a repair. The goal is a fix you understand, at a pace you are comfortable with,": "Nunca deberías sentirte presionado a reparar. El objetivo es una solución que entiendas, a un ritmo cómodo para ti,",
+  "with communication that respects your time.": "con comunicación que respete tu tiempo.",
+  "Need help now?": "¿Necesitas ayuda ahora?",
+  "Start with a free diagnosis request.": "Comienza con una solicitud de diagnóstico gratis.",
+  "Describe the issue in your own words": "Describe el problema con tus propias palabras",
+  "Include device type and age if you know it": "Incluye el tipo de dispositivo y su antigüedad si la conoces",
+  "Expect a thoughtful reply—not a copy-paste script": "Espera una respuesta pensada, no un mensaje genérico",
+  "Request support": "Solicitar soporte",
+  "There is no cost to ask questions or get an initial diagnosis.": "No tiene costo hacer preguntas o recibir un diagnóstico inicial.",
+  "Gallery · Real Work": "Galería · Trabajo real",
+  "See the": "Mira el",
+  "repair process": "proceso de reparación",
+  "up close": "de cerca",
+  "Every image below comes from real DiazTech repair and upgrade work. These examples show the same careful process used for each phone,": "Cada imagen abajo proviene de trabajos reales de reparación y mejora en DiazTech. Estos ejemplos muestran el mismo proceso cuidadoso usado en cada teléfono,",
+  "laptop, desktop, and custom PC project.": "laptop, computadora de escritorio y proyecto de PC personalizada.",
+  "The goal is simple: clean workmanship, honest diagnostics, and results that hold up after handoff.": "El objetivo es simple: trabajo limpio, diagnósticos honestos y resultados que se mantienen después de la entrega.",
+  "Verified project photos": "Fotos de proyectos verificados",
+  "Repair and upgrade workflow": "Flujo de reparación y mejora",
+  "Clear service outcomes": "Resultados de servicio claros",
+  "Browse showcase": "Explorar galería",
+  "Showcase categories": "Categorías de galería",
+  "Desktop internals and upgrades": "Internos y mejoras de escritorio",
+  "Smartphone teardown and reassembly": "Desarme y reensamblaje de smartphone",
+  "Laptop maintenance and diagnostics": "Mantenimiento y diagnóstico de laptop",
+  "View all services": "Ver todos los servicios",
+  "Diagnostics before assumptions": "Diagnóstico antes de suposiciones",
+  "Clean bench workflow": "Flujo de trabajo limpio en banco",
+  "Final verification before handoff": "Verificación final antes de entregar",
+  "Repair Showcase": "Galería de reparaciones",
+  "Project snapshots from active service work.": "Instantáneas de proyectos en trabajos de servicio activos.",
+  "This gallery highlights real device states during repair, restoration, and upgrade stages.": "Esta galería muestra estados reales de dispositivos durante etapas de reparación, restauración y mejora.",
+  "Custom desktop internal hardware": "Hardware interno de escritorio personalizado",
+  "Smartphone teardown view": "Vista de desarme de smartphone",
+  "Laptop internal service stage": "Etapa de servicio interno de laptop",
+  "Phone reassembly workflow": "Flujo de reensamblaje de teléfono",
+  "Desktop RAM upgrade": "Mejora de RAM en escritorio",
+  "Craft over shortcuts": "Calidad por encima de atajos",
+  "Need your device checked?": "¿Necesitas revisar tu dispositivo?",
+  "Book a free diagnosis and get clear next steps.": "Solicita un diagnóstico gratis y recibe pasos claros a seguir.",
+  "Ready to start?": "¿Listo para empezar?",
+  "Get a Quote · Free Diagnosis": "Solicitar cotización · Diagnóstico gratis",
+  "Tell us what is wrong and get a": "Cuéntanos qué está mal y recibe un",
+  "clear next step": "siguiente paso claro",
+  "Share your device issue and DiazTech will follow up with a free diagnosis, practical recommendations,": "Comparte el problema de tu dispositivo y DiazTech responderá con diagnóstico gratis y recomendaciones prácticas,",
+  "clear communication and no-pressure options.": "comunicación clara y opciones sin presión.",
+  "No hidden steps": "Sin pasos ocultos",
+  "Repair + upgrades + custom PCs": "Reparación + mejoras + PCs personalizadas",
+  "Start request": "Iniciar solicitud",
+  "View service area": "Ver área de servicio",
+  "What happens next": "Qué pasa después",
+  "Submit your issue details": "Envía los detalles de tu problema",
+  "Receive free diagnosis feedback": "Recibe respuesta del diagnóstico gratis",
+  "Review quote and approve your option": "Revisa la cotización y aprueba tu opción",
+  "Send request now": "Enviar solicitud ahora",
+  "Diagnosis first": "Diagnóstico primero",
+  "Clear quote details": "Detalles de cotización claros",
+  "Approval before repair": "Aprobación antes de reparar",
+  "Device type (phone, tablet, laptop, desktop, or other)": "Tipo de dispositivo (teléfono, tablet, laptop, escritorio u otro)",
+  "Problem details and when it started": "Detalles del problema y cuándo comenzó",
+  "Any error messages shown": "Cualquier mensaje de error mostrado",
+  "Whether you need repair, setup, or PC assembly help": "Si necesitas ayuda con reparación, configuración o armado de PC",
+  "Free diagnosis is currently available while DiazTech grows.": "Actualmente hay diagnóstico gratis mientras DiazTech crece.",
+  "Typical request flow": "Flujo típico de solicitud",
+  "Submit form details": "Enviar datos del formulario",
+  "Receive free diagnosis message": "Recibir mensaje de diagnóstico gratis",
+  "Choose repair or upgrade option": "Elegir opción de reparación o mejora",
+  "Where DiazTech currently serves": "Dónde atiende actualmente DiazTech",
+  "DiazTech focuses on local service coverage shown on the map below. If you are near this area,": "DiazTech se enfoca en la cobertura local mostrada en el mapa. Si estás cerca de esta área,",
+  "send your issue details and Angel will confirm availability and next steps.": "envía los detalles de tu problema y Angel confirmará disponibilidad y próximos pasos.",
+  "Free diagnosis still available": "Diagnóstico gratis aún disponible",
+  "Our promise": "Nuestra promesa",
+  "You get honest diagnostics, a clear quote, and a respectful process from first message to final fix.": "Recibes diagnósticos honestos, una cotización clara y un proceso respetuoso desde el primer mensaje hasta la solución final.",
+  "DiazTech is ready when you are.": "DiazTech está listo cuando tú lo estés.",
+  "Submit your request now and get a free diagnosis response with practical options for repair,": "Envía tu solicitud ahora y recibe respuesta de diagnóstico gratis con opciones prácticas para reparación,",
+  "troubleshooting, optimization, or custom PC support.": "diagnóstico, optimización o soporte para PC personalizada.",
+  "Local, student-owned service": "Servicio local dirigido por un estudiante",
+  "Clear communication throughout the process": "Comunicación clara durante todo el proceso",
+  "No-pressure quote review before approval": "Revisión de cotización sin presión antes de aprobar",
+  "Use the form above or browse services to describe your exact issue.": "Usa el formulario de arriba o explora servicios para describir tu problema exacto.",
+  "Start quote request": "Iniciar solicitud de cotización",
+  "Do you charge for diagnosis?": "¿Cobran por el diagnóstico?",
+  "No. DiazTech currently offers free diagnosis so you can understand the issue first.": "No. DiazTech actualmente ofrece diagnóstico gratis para que entiendas el problema primero.",
+  "What types of devices do you work on?": "¿Qué tipos de dispositivos trabajan?",
+  "DiazTech can help with phones, tablets, laptops, desktops, gaming setups, and other everyday tech devices.": "DiazTech puede ayudar con teléfonos, tablets, laptops, computadoras, equipos gamer y otros dispositivos tecnológicos de uso diario.",
+  "Can you help with custom PC assembly?": "¿Pueden ayudar con el armado de PC personalizada?",
+  "Yes. DiazTech can help with part selection, compatibility guidance, assembly, and upgrade planning for custom PCs.": "Sí. DiazTech puede ayudar con selección de partes, compatibilidad, armado y planificación de mejoras para PCs personalizadas.",
+  "Coverage snapshot": "Resumen de cobertura",
+  "Phones, tablets & wearables": "Teléfonos, tablets y wearables",
+  "Laptops & desktops": "Laptops y computadoras",
+  "Gaming rigs & custom builds": "Equipos gamer y builds personalizadas",
+  "Software, speed & connectivity": "Software, velocidad y conectividad",
+  "Tell us what broke": "Cuéntanos qué falló",
+  "Choose an option": "Elige una opción",
+  "Approve the plan": "Aprueba el plan",
+  "Nothing billable moves ahead until you understand the next step and agree to it.": "No se avanza con nada facturable hasta que entiendas el siguiente paso y estés de acuerdo.",
+  "Send what you are seeing, the device type, and any error messages—screenshots welcome.": "Envía lo que estás viendo, el tipo de dispositivo y cualquier error. Las capturas son bienvenidas.",
+  "The situation is reviewed and likely causes are explained in plain language.": "Se revisa la situación y se explican las causas probables en lenguaje simple.",
+  "You receive a clear recommendation: repair, upgrade, tune-up, or leave it as-is.": "Recibes una recomendación clara: reparar, mejorar, optimizar o dejarlo como está.",
+  "Whether it is a phone, tablet, laptop, desktop, or a custom PC, you get clear options before anything moves": "Ya sea teléfono, tablet, laptop, escritorio o PC personalizada, recibes opciones claras antes de que algo avance",
+  "forward—no pressure, no surprises.": "sin presión ni sorpresas.",
+  "Turnaround and final cost can vary by issue, but the process stays simple and transparent end to end.": "El tiempo de entrega y costo final pueden variar según el problema, pero el proceso se mantiene simple y transparente de principio a fin.",
+  "See the work": "Ver el trabajo",
+  "a tech repair and setup service focused on helping people with all kinds of devices and custom PC needs.": "un servicio de reparación y configuración tecnológica enfocado en ayudar a personas con todo tipo de dispositivos y PCs personalizadas.",
+  "and a straightforward quote before any paid work begins.": "y una cotización clara antes de comenzar cualquier trabajo pagado.",
+  "grows, I appreciate every message, question, referral, and piece of advice.": "crece, agradezco cada mensaje, pregunta, recomendación y consejo.",
+  "take a look.": "revisarlo.",
+  "up with options.": "con opciones.",
+  "Approve before repair": "Aprueba antes de reparar",
+  "Clear next steps before any work continues": "Pasos claros antes de continuar cualquier trabajo",
+  "Clear quote provided before paid work begins": "Cotización clara antes de iniciar trabajo pagado",
+  "Compatibility and budget recommendations": "Recomendaciones de compatibilidad y presupuesto",
+  "Component seating and housing alignment checked before final close and post-repair testing.": "Se verifica la colocación de componentes y la alineación de carcasa antes del cierre final y pruebas posteriores.",
+  "Cooling path and motherboard area inspected while verifying thermal and storage-related issues.": "Se inspeccionan la ruta de enfriamiento y la zona de la placa base mientras se verifican problemas térmicos y de almacenamiento.",
+  "Custom PC part selection and assembly": "Selección de piezas y armado de PC personalizada",
+  "Desktop": "Escritorio",
+  "Desktop PC": "PC de escritorio",
+  "Diagnosis cost ($)": "Costo de diagnóstico ($)",
+  "Diagnosis first, always": "Diagnóstico primero, siempre",
+  "Diagnostics": "Diagnóstico",
+  "DiazTech primary service coverage area.": "Área principal de cobertura de servicio de DiazTech.",
+  "Each repair photo represents one standard: do the work carefully, verify the result, and return devices with confidence.": "Cada foto de reparación representa un estándar: trabajar con cuidado, verificar resultados y devolver dispositivos con confianza.",
+  "Error message diagnosis": "Diagnóstico de mensajes de error",
+  "Explanations you can actually use": "Explicaciones que realmente puedes usar",
+  "For the “something is off” problems that are hard to Google—DiazTech digs in with patience and clarity.": "Para esos problemas de “algo no está bien” que son difíciles de buscar en Google, DiazTech investiga con paciencia y claridad.",
+  "Free diagnosis before paid work begins": "Diagnóstico gratis antes de empezar trabajo pagado",
+  "From phones and tablets to laptops, desktops, and custom PC builds, every request is reviewed with": "Desde teléfonos y tablets hasta laptops, equipos de escritorio y PCs personalizadas, cada solicitud se revisa con",
+  "Hands-on help for phones, tablets, laptops, desktops, and other personal tech that is not behaving.": "Ayuda práctica para teléfonos, tablets, laptops, computadoras y otra tecnología personal que no está funcionando bien.",
+  "Hardware Setup": "Configuración de hardware",
+  "Ideal when things feel sluggish, freeze often, or take forever to open apps and files.": "Ideal cuando todo se siente lento, se congela seguido o tarda demasiado en abrir apps y archivos.",
+  "If your phone, tablet, laptop, desktop, or custom PC is acting unusual, send the details and DiazTech will follow": "Si tu teléfono, tablet, laptop, escritorio o PC personalizada está fallando, envía los detalles y DiazTech responderá",
+  "If your phone, tablet, laptop, desktop, or custom PC is not working right, message DiazTech and I will gladly": "Si tu teléfono, tablet, laptop, escritorio o PC personalizada no funciona bien, envía un mensaje a DiazTech y con gusto",
+  "If your phone, tablet, laptop, or desktop is acting up, share the issue and receive a straightforward plan before any paid work starts.": "Si tu teléfono, tablet, laptop o equipo de escritorio está fallando, comparte el problema y recibe un plan claro antes de empezar trabajo pagado.",
+  "Internal frame, battery, and camera assembly exposed for targeted diagnostics and repair planning.": "Estructura interna, batería y módulo de cámara expuestos para diagnóstico dirigido y planificación de reparación.",
+  "Internet and connectivity checks": "Revisión de internet y conectividad",
+  "Laptop": "Laptop",
+  "Memory upgrade completed with compatibility checks and configuration validation.": "Actualización de memoria completada con validación de compatibilidad y configuración.",
+  "More speed, more storage, or a ground-up desktop—planned around your budget and how you use the machine.": "Más velocidad, más almacenamiento o un equipo desde cero, todo planificado según tu presupuesto y uso.",
+  "Motherboard, cooling, and graphics components installed and cable-managed for stable performance.": "Placa base, enfriamiento y componentes gráficos instalados y organizados para un rendimiento estable.",
+  "No jargon walls": "Sin barreras de tecnicismos",
+  "No-pressure approval before work continues": "Aprobación sin presión antes de continuar",
+  "Phone": "Teléfono",
+  "Phones, tablets, laptops, desktops, and custom PC support": "Soporte para teléfonos, tablets, laptops, computadoras y PCs personalizadas",
+  "Plain-language summary of what changed": "Resumen en lenguaje simple de lo que cambió",
+  "RAM, SSD, and component upgrade guidance": "Guía para mejorar RAM, SSD y otros componentes",
+  "Reassembly": "Reensamblaje",
+  "Repair and upgrade options explained clearly": "Opciones de reparación y mejora explicadas claramente",
+  "Send your issue details and DiazTech will follow up with a free diagnosis and practical options.": "Envía los detalles de tu problema y DiazTech dará seguimiento con diagnóstico gratis y opciones prácticas.",
+  "Setup help and performance tuning after the build": "Ayuda de configuración y ajuste de rendimiento después del armado",
+  "Smartphone": "Smartphone",
+  "Software setup and stability review": "Configuración de software y revisión de estabilidad",
+  "Software, setup, and connectivity checks": "Revisión de software, configuración y conectividad",
+  "Startup app cleanup and tune-up": "Limpieza y ajuste de apps de inicio",
+  "Startup, crash, and error troubleshooting": "Diagnóstico de inicio, bloqueos y errores",
+  "Storage, update, and background process review": "Revisión de almacenamiento, actualizaciones y procesos en segundo plano",
+  "System checks to improve everyday performance": "Revisiones del sistema para mejorar el rendimiento diario",
+  "Tablet": "Tablet",
+  "Teardown": "Desarme",
+  "Upgrade": "Mejora",
+  "Upgrades & custom PC assembly": "Mejoras y armado de PC personalizada",
+  "before any repair work begins.": "antes de comenzar cualquier trabajo de reparación.",
+  "free diagnosis": "diagnóstico gratis",
+  "— Angel,": "— Angel,",
+  "FAQ": "Preguntas frecuentes",
+  "Hi everyone! My name is Angel, and I am a 17-year-old local student starting DiazTech,": "¡Hola a todos! Mi nombre es Angel y soy un estudiante local de 17 años que está iniciando DiazTech,",
+  "I enjoy working with technology and helping people solve real problems. As DiazTech": "Me gusta trabajar con tecnología y ayudar a resolver problemas reales. Mientras DiazTech",
+  "Honest guidance if parts or replacement make more sense": "Orientación honesta si conviene más reemplazar piezas o el equipo",
+  "DiazTech. All rights reserved.": "DiazTech. Todos los derechos reservados.",
+  "Send Request": "Enviar solicitud",
 };
 
 const I18N_ATTRIBUTE_ES = {
   "DiazTech Home": "Inicio de DiazTech",
   "Main navigation": "Navegación principal",
   Highlights: "Destacados",
+  "Gallery highlights": "Destacados de la galería",
   "At a glance": "Resumen",
   "Quote page highlights": "Destacados de cotización",
+  "What DiazTech covers": "Lo que cubre DiazTech",
+  "What this gallery includes": "Lo que incluye esta galería",
+  "Request timeline": "Cronograma de solicitud",
+  "Service principles": "Principios del servicio",
+  "Service standards": "Estándares del servicio",
+  "Quote process standards": "Estándares del proceso de cotización",
   "DiazTech logo": "Logo de DiazTech",
+  "DiazTech Instagram": "Instagram de DiazTech",
 };
 
 const I18N_TITLE_ES = {
@@ -146,9 +398,109 @@ const I18N_DESCRIPTION_ES = {
 let activeLanguage = "en";
 
 const normalizeText = (value) => value.replace(/\s+/g, " ").trim();
+const I18N_TEXT_ES_ENTRIES = Object.entries(I18N_TEXT_ES).sort((a, b) => b[0].length - a[0].length);
+
+const canonicalizeText = (value) =>
+  normalizeText(value)
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/[–—]/g, "-");
+
+const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+const createFlexiblePattern = (source) => {
+  let pattern = escapeRegex(source);
+  pattern = pattern.replace(/\\\s\+/g, "\\\\s+");
+  pattern = pattern.replace(/\s+/g, "\\\\s+");
+  pattern = pattern.replace(/['’‘]/g, "['’‘]");
+  pattern = pattern.replace(/["“”]/g, '["“”]');
+  pattern = pattern.replace(/[-–—]/g, "[-–—]");
+  return new RegExp(pattern, "gi");
+};
+
+const I18N_TEXT_ES_CANONICAL = new Map(
+  I18N_TEXT_ES_ENTRIES.map(([source, target]) => [canonicalizeText(source), target])
+);
+
+const I18N_TEXT_ES_PATTERNS = I18N_TEXT_ES_ENTRIES.map(([source, target]) => ({
+  target,
+  pattern: createFlexiblePattern(source),
+}));
+
+const safeStorageGet = (key) => {
+  try {
+    return localStorage.getItem(key);
+  } catch (_error) {
+    return null;
+  }
+};
+
+const safeStorageSet = (key, value) => {
+  try {
+    localStorage.setItem(key, value);
+  } catch (_error) {
+    // Ignore storage write failures (private mode / blocked storage).
+  }
+};
+
+const getLanguageFromUrl = () => {
+  const langParam = new URLSearchParams(window.location.search).get("lang");
+  return langParam === "es" || langParam === "en" ? langParam : null;
+};
+
+const setLanguageInUrl = (language) => {
+  const url = new URL(window.location.href);
+  if (language === "es") {
+    url.searchParams.set("lang", "es");
+  } else {
+    url.searchParams.delete("lang");
+  }
+  window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+};
+
+const updateInternalLanguageLinks = (language) => {
+  document.querySelectorAll('a[href]').forEach((link) => {
+    const rawHref = link.getAttribute("href");
+    if (!rawHref) return;
+    if (rawHref.startsWith("#")) return;
+    if (rawHref.startsWith("mailto:")) return;
+    if (rawHref.startsWith("tel:")) return;
+    if (rawHref.startsWith("javascript:")) return;
+
+    const targetUrl = new URL(rawHref, window.location.href);
+    if (targetUrl.origin !== window.location.origin) return;
+    if (!targetUrl.pathname.endsWith(".html")) return;
+
+    if (language === "es") {
+      targetUrl.searchParams.set("lang", "es");
+    } else {
+      targetUrl.searchParams.delete("lang");
+    }
+
+    link.setAttribute("href", `${targetUrl.pathname}${targetUrl.search}${targetUrl.hash}`);
+  });
+};
+
+const translateNormalized = (value, entries) => {
+  let output = value;
+  entries.forEach(([source, translated]) => {
+    if (!source || output.indexOf(source) === -1) return;
+    output = output.split(source).join(translated);
+  });
+  return output;
+};
+
+const translateFlexible = (value) => {
+  let output = value;
+  I18N_TEXT_ES_PATTERNS.forEach(({ pattern, target }) => {
+    output = output.replace(pattern, target);
+  });
+  return output;
+};
 
 const getInitialTheme = () => {
-  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  const savedTheme = safeStorageGet(THEME_STORAGE_KEY);
   if (savedTheme === "dark" || savedTheme === "light") {
     return savedTheme;
   }
@@ -156,7 +508,12 @@ const getInitialTheme = () => {
 };
 
 const getInitialLanguage = () => {
-  const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+  const urlLanguage = getLanguageFromUrl();
+  if (urlLanguage) {
+    return urlLanguage;
+  }
+
+  const savedLanguage = safeStorageGet(LANGUAGE_STORAGE_KEY);
   if (savedLanguage === "en" || savedLanguage === "es") {
     return savedLanguage;
   }
@@ -197,11 +554,34 @@ const applyTextLanguage = () => {
     const normalized = normalizeText(originalText);
     if (!normalized) return;
 
-    if (activeLanguage === "es" && I18N_TEXT_ES[normalized]) {
-      textNode.textContent = I18N_TEXT_ES[normalized];
-    } else {
-      textNode.textContent = originalText;
+    if (activeLanguage === "es") {
+      const directTranslation = I18N_TEXT_ES[normalized];
+      if (directTranslation) {
+        textNode.textContent = directTranslation;
+        return;
+      }
+
+      const canonicalTranslation = I18N_TEXT_ES_CANONICAL.get(canonicalizeText(normalized));
+      if (canonicalTranslation) {
+        textNode.textContent = canonicalTranslation;
+        return;
+      }
+
+      // Fallback for wrapped/multi-line text nodes where phrases are split by formatting whitespace.
+      const normalizedReplacement = translateNormalized(normalized, I18N_TEXT_ES_ENTRIES);
+      if (normalizedReplacement !== normalized) {
+        textNode.textContent = normalizedReplacement;
+        return;
+      }
+
+      const flexibleReplacement = translateFlexible(originalText);
+      if (flexibleReplacement !== originalText) {
+        textNode.textContent = flexibleReplacement;
+        return;
+      }
     }
+
+    textNode.textContent = originalText;
   });
 };
 
@@ -254,6 +634,8 @@ const applyLanguage = (language) => {
   applyTextLanguage();
   applyAttributeLanguage();
   applyHeadLanguage();
+  setLanguageInUrl(language);
+  updateInternalLanguageLinks(language);
 };
 
 setTheme(getInitialTheme());
@@ -311,14 +693,14 @@ if (navWrap) {
     const activeTheme = rootElement.getAttribute("data-theme") || "light";
     const nextTheme = activeTheme === "dark" ? "light" : "dark";
     setTheme(nextTheme);
-    localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+    safeStorageSet(THEME_STORAGE_KEY, nextTheme);
     syncThemeToggleLabel();
   });
 
   languageToggle.addEventListener("click", () => {
     const nextLanguage = activeLanguage === "en" ? "es" : "en";
     applyLanguage(nextLanguage);
-    localStorage.setItem(LANGUAGE_STORAGE_KEY, nextLanguage);
+    safeStorageSet(LANGUAGE_STORAGE_KEY, nextLanguage);
     syncThemeToggleLabel();
     syncLanguageToggleLabel();
     if (menuToggle) {
@@ -330,7 +712,7 @@ if (navWrap) {
   });
 
   prefersDarkScheme.addEventListener("change", (event) => {
-    const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+    const savedTheme = safeStorageGet(THEME_STORAGE_KEY);
     if (savedTheme === "dark" || savedTheme === "light") {
       return;
     }
