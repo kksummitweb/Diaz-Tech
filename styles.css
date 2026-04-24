@@ -374,6 +374,13 @@ html[data-theme="dark"] .hero-copy p {
   line-height: 1.15;
 }
 
+.hero-accent {
+  background: linear-gradient(115deg, var(--brand-blue) 0%, var(--brand-cyan) 50%, var(--brand-orange) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .hero-copy p {
   margin: 0;
   color: #324763;
