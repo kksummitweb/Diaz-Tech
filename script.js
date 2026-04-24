@@ -555,22 +555,25 @@ const applyTextLanguage = () => {
     if (!normalized) return;
 
     if (activeLanguage === "es") {
+      const leadingSpace = originalText.match(/^\s+/)?.[0] || "";
+      const trailingSpace = originalText.match(/\s+$/)?.[0] || "";
+
       const directTranslation = I18N_TEXT_ES[normalized];
       if (directTranslation) {
-        textNode.textContent = directTranslation;
+        textNode.textContent = leadingSpace + directTranslation + trailingSpace;
         return;
       }
 
       const canonicalTranslation = I18N_TEXT_ES_CANONICAL.get(canonicalizeText(normalized));
       if (canonicalTranslation) {
-        textNode.textContent = canonicalTranslation;
+        textNode.textContent = leadingSpace + canonicalTranslation + trailingSpace;
         return;
       }
 
       // Fallback for wrapped/multi-line text nodes where phrases are split by formatting whitespace.
       const normalizedReplacement = translateNormalized(normalized, I18N_TEXT_ES_ENTRIES);
       if (normalizedReplacement !== normalized) {
-        textNode.textContent = normalizedReplacement;
+        textNode.textContent = leadingSpace + normalizedReplacement + trailingSpace;
         return;
       }
 
